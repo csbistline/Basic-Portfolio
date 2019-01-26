@@ -85,12 +85,32 @@ hr {
     margin-right: 20px;
 }
 
+.gallery-images {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    clear: left;
+}
+
 p {
     margin-bottom: 1rem;
 }
 
 h2 {
     margin-bottom: -5px;
+}
+
+li {
+    float: left;
+    width: 200px;
+    padding: 1rem;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: inline;
+    margin: 50px 10px 20px 10px;
 }
 
 footer {
