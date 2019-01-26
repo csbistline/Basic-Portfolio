@@ -85,11 +85,7 @@ hr {
     margin-right: 20px;
 }
 
-.gallery-images {
-    margin-right: 2rem;
-    margin-bottom: 2rem;
-    clear: left;
-}
+
 
 p {
     margin-bottom: 1rem;
@@ -99,18 +95,61 @@ h2 {
     margin-bottom: -5px;
 }
 
-li {
-    float: left;
+.gallery-labels-container {
+    position: absolute;
+    top: 180px;
+    display: flex;
+    width: 500px;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: flex-start;
+
+}
+
+.gallery-labels {
+    /* float: left; */
     width: 200px;
-    padding: 1rem;
+    padding: 10px;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin: auto;
+    /* margin: auto; */
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    display: inline;
-    margin: 50px 10px 20px 10px;
+    display: inline-block;
+    margin: 120px 40px 70px 10px;
+    box-sizing: border-box;
+
+}
+
+.gallery-images-container {
+    position: relative;
+    display: flex;
+    width: 500px;
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: flex-start;
+}
+.gallery-images {
+
+    /* padding: 10px; */
+    margin: 0px 40px 40px 10px;
+    box-sizing: border-box;
 }
 
 footer {
