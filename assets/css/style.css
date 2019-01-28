@@ -5,7 +5,6 @@ body {
     background-image: url(../images/gravel.png);
     background-repeat: repeat;
     box-sizing: border-box;
-
 }
 
 a {
@@ -40,7 +39,6 @@ nav {
 
 section {
     clear: both;
-
 }
 
 .wrapper {
@@ -53,13 +51,11 @@ section {
 }
 .wrapper2 {
     width: 960px;
-    /* background-color: #ffffff; */
     margin: auto;
 }
 
 .main-content {
     width: 960px;
-    /* margin-top: 2rem; */
     margin: auto;
     background-color: #ffffff;
     box-sizing: border-box;
@@ -84,8 +80,6 @@ hr {
     float: left;
     margin-right: 20px;
 }
-
-
 
 p {
     margin-bottom: 1rem;
@@ -150,6 +144,15 @@ h2 {
     /* padding: 10px; */
     margin: 0px 40px 40px 10px;
     box-sizing: border-box;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
 }
 
 footer {
